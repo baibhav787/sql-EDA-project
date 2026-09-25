@@ -1,165 +1,82 @@
-📊 SQL Exploratory Data Analysis Project
-<p align="center"> <img src="https://img.shields.io/badge/SQL-Server-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/> <img src="https://img.shields.io/badge/Data%20Analysis-EDA-blue?style=for-the-badge" alt="EDA"/> <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub"/> </p> <p align="center"> <b>🔎 Exploring Data • 📈 Finding Trends • 💡 Generating Insights</b> </p>
-📌 Project Overview
+## 📊 SQL Exploratory Data Analysis Project
 
+<p> <img src="https://img.shields.io/badge/SQL-Server-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/> <img src="https://img.shields.io/badge/Data%20Analysis-EDA-blue?style=for-the-badge" alt="EDA"/> <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub"/> </p>
+
+## 📌 Project Overview 
 This project focuses on performing Exploratory Data Analysis (EDA) using SQL to uncover meaningful insights and business metrics from a dataset.
 
 The analysis uses SQL queries to explore, clean, aggregate, and analyze data. The goal is to demonstrate practical SQL skills and transform raw data into useful business insights.
 
-🎯 Project Workflow
-📂 Raw Data
-     ↓
-🧹 Data Cleaning
-     ↓
-🔍 Data Exploration
-     ↓
-📊 Data Analysis
-     ↓
-📈 Business Metrics
-     ↓
-💡 Insights & Findings
+## 🎯 Project Workflow
+📂 Raw Data ⟶ 🧹 Data Cleaning ⟶ 🔍 Data Exploration ⟶ 📊 Data Analysis ⟶ 📈 Business Metrics ⟶💡 Insights & Findings 
 
-🎯 Objectives
-The main objectives of this project are:
-🔎 Understand the structure and characteristics of the dataset
-🧹 Identify missing, duplicate, and inconsistent data
-📊 Explore key variables and their distributions
-📈 Analyze trends and patterns using SQL
-🧮 Perform aggregations and statistical analysis
-🏆 Identify top-performing and underperforming categories
-💡 Generate meaningful and actionable insights
+## 🎯 Objectives
 
-🗂️ Dataset
-The dataset contains information about different aspects of an e-commerce/business environment:
-📋 Data	📝 Description
-👥 Customers	Customer-related information
-📦 Products	Product details and attributes
-🛒 Orders	Order-level information
-🧾 Order Items	Individual products included in orders
-🎁 Promotions	Promotional and discount information
-⭐ Product Reviews	Customer reviews and ratings
-The dataset also contains revenue and other relevant business metrics used for analysis.
+- 🔎 Understand the structure and characteristics of the dataset
+- 🧹 Identify missing, duplicate, and inconsistent data
+- 📊 Explore key variables and their distributions
+- 📈 Analyze trends and patterns using SQL
+- 🧮 Perform aggregations and statistical analysis
+- 🏆 Identify top-performing and underperforming categories
+- 💡 Generate actionable insights
 
-🛠️ Tools & Technologies
-🛠️ Tool	💡 Purpose
-🗄️ SQL Server	Data analysis & querying
-🐙 Git & GitHub	Version control & project sharing
-📄 CSV	Dataset storage
-🔍 Analysis Performed
-1️⃣ Data Exploration
+## 🗂️ Dataset
 
-The initial analysis focused on understanding the structure and characteristics of the data.
+The dataset contains information about:
 
-🔎 Activities
-📊 Examined the number of records
-🏗️ Checked table structure and column data types
-🔢 Identified unique values
-📉 Reviewed minimum and maximum values
-📊 Calculated averages and totals
-🔍 Investigated relationships between tables
+- 👥 **Customers**
+- 📦 **Products**
+- 🛒 **Orders**
+- 🧾 **Order Items**
+- 🎁 **Promotions**
+- ⭐ **Product Reviews**
+- 💰 **Revenue and other relevant metrics**
 
-2️⃣ Data Cleaning 🧹
-Before performing analysis, the dataset was checked for potential data-quality issues.
-🧹 Cleaning Activities
-❌ Checked for NULL values
-🔄 Identified duplicate records
-⚠️ Investigated inconsistent values
-✨ Standardized data where necessary
-🔍 Validated relationships between tables
+## 🔍 Analysis Performed
 
-3️⃣ Descriptive Analysis 📊
-Performed descriptive analysis to understand the overall characteristics of the data.
-📈 Analysis Includes
-🔢 Total number of customers
-🛒 Total number of orders
-📦 Total products
-💰 Revenue analysis
-📊 Average order value
-⭐ Product review analysis
-🎁 Promotion analysis
+### 1️⃣ Data Exploration
 
-4️⃣ Customer Analysis 👥
-Customer behavior was analyzed to understand purchasing patterns and customer value.
-🔎 Explored
-👥 Number of customers
-🔁 Repeat customers
-🛒 Customer purchasing behavior
-💰 Highest-value customers
-📊 Customer order frequency
-📈 Customer spending patterns
+- 📊 Examined the number of records
+- 🏗️ Checked table structure and column data types
+- 🔢 Identified unique values
+- 📉 Reviewed minimum and maximum values
+- 📊 Calculated averages and totals
 
-5️⃣ Product Analysis 📦
-Product-level analysis was performed to identify product performance and customer preferences.
-🔎 Explored
-🏆 Top-performing products
-📉 Low-performing products
-💰 Revenue generated by products
-🛒 Most frequently ordered products
-⭐ Product ratings and reviews
-🎁 Impact of promotions on products
+### 2️⃣ Data Cleaning 🧹
 
-📈 Key SQL Concepts Used
-The project covers a wide range of SQL concepts:
-SELECT
-WHERE
-GROUP BY
-ORDER BY
-HAVING
-JOIN
-CASE
-Aggregate Functions
-Subqueries
-Common Table Expressions (CTEs)
-Window Functions
-Date Functions
-COALESCE
-DISTINCT
+- ❌ Checked for `NULL` values
+- 🔄 Identified duplicate records
+- ⚠️ Investigated inconsistent values
+- ✨ Standardized data where necessary
 
-🧠 SQL Skills Demonstrated
-🔑 Concept	📌 Usage
-SELECT	Retrieve data
-WHERE	Filter records
-GROUP BY	Aggregate data
-ORDER BY	Sort results
-HAVING	Filter aggregated results
-JOIN	Combine multiple tables
-CASE	Conditional logic
-Aggregate Functions	Calculate metrics
-Subqueries	Perform nested analysis
-CTEs	Structure complex queries
-Window Functions	Advanced analytical calculations
-Date Functions	Time-based analysis
-COALESCE	Handle missing values
-DISTINCT	Identify unique records
+### 3️⃣ Descriptive Analysis 📊
 
-💡 Key Insights
-The analysis aims to uncover insights such as:
-📈 Sales and revenue trends
-🏆 Best-performing products
-👥 Customer purchasing patterns
-💰 High-value customers
-⭐ Customer review patterns
-🎁 Promotion performance
-📊 Product and order-level metrics
-📝 Note: Add your specific findings and numbers here after completing the analysis.
+- 💰 Analyzed revenue
+- 🛒 Analyzed orders
+- 📦 Analyzed products
+- 👥 Analyzed customers
+- ⭐ Analyzed product reviews
 
-📌 Conclusion
+### 4️⃣ Customer Analysis 👥
+
+- 👥 Number of customers
+- 🔁 Repeat customers
+- 🛒 Customer purchasing behavior
+- 💰 Highest-value customers
+
+### 5️⃣ Product Analysis 📦
+
+- 🏆 Top-performing products
+- 📉 Low-performing products
+- 💰 Revenue generated by products
+- ⭐ Product ratings and reviews
+- 🎁 Promotion performance
+
+## 📌 Conclusion
 This project demonstrates how SQL can be used for Exploratory Data Analysis, from understanding raw data to discovering trends and generating meaningful business insights.
-Through this project, I strengthened my practical skills in:
-🔍 Data exploration
-🧹 Data cleaning
-📊 Data aggregation
-🔗 Table joins
-🧩 Subqueries
-🏗️ Common Table Expressions (CTEs)
-🪟 Window Functions
-📅 Date-based analysis
-💡 Business-oriented data analysis
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 I'm Baibhav, interested in Data Analytics, SQL, and turning raw data into meaningful insights.
-🌐 Connect With Me
-<p> <a href="https://github.com/baibhav787"> <img src="https://img.shields.io/badge/GitHub-baibhav787-black?style=for-the-badge&logo=github" alt="GitHub"/> </a> <a href="https://www.linkedin.com/in/baibhav787/"> <img src="https://img.shields.io/badge/LinkedIn-Baibhav-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/> </a> </p>
-If you found this project useful or interesting, consider giving the repository a ⭐ Star!
 
-<p align="center"> <b>📊 Explore Data → 🔍 Find Patterns → 💡 Generate Insights 🚀</b> </p>
+## 🌐 Connect With Me
+<p> <a href="https://github.com/baibhav787"> <img src="https://img.shields.io/badge/GitHub-baibhav787-black?style=for-the-badge&logo=github" alt="GitHub"/> </a> <a href="https://www.linkedin.com/in/baibhav787/"> <img src="https://img.shields.io/badge/LinkedIn-Baibhav-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/> </a> </p>
